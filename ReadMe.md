@@ -82,4 +82,3 @@ _Hypothesis: We believe \&lt;this feature\&gt; will achieve \&lt;this outcome\&g
  |
  |
  |
-Done
