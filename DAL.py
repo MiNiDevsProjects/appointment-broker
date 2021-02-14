@@ -7,11 +7,11 @@ from uuid import uuid4
 #add serial number generater
 
 #add UID generater
-def new_doctor(doctor_name, hour_start, hour_end):
+def new_doctor(doctor_name):
     doctor_id = str(uuid4())
     print(doctor_id)
 
     doctor_isavailable = True
-    DBL.createDoctor(doctor_id ,doctor_name, hour_start, hour_end, doctor_isavailable)
+    DBL.createDoctor(doctor_id ,doctor_name, doctor_isavailable)
 
-new_doctor('a',9,6)
+new_doctor('a')

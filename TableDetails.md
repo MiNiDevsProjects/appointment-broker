@@ -1,8 +1,6 @@
 Doctor Table
  - serialNumber
  - DoctorName
- - hourStart
- - hourEnd
  - isAvailable
 
 Patient Table
