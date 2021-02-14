@@ -14,4 +14,5 @@ def new_doctor(doctor_name):
     doctor_isavailable = True
     DBL.createDoctor(doctor_id ,doctor_name, doctor_isavailable)
 
-new_doctor('a')
+doctorName = input("Register Doctor Name: ")
+new_doctor(doctorName)
